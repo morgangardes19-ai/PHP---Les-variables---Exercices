@@ -1,3 +1,13 @@
+<?php
+$lastname = "John";
+$firstname = "Jean";
+$age = 30;
+$resultat = "Bonjour $lastname $firstname, vous avez $age ans.";
+
+// $resultat = 'Bonjour, ' . $lastname . ' ' . $firstname . ', vous avez ' . $age . ' ans';
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,12 +19,7 @@
 
 <body>
     <!-- Exercice 2 -->
-    <?php
-    $lastname = "John";
-    $firstname = "Jean";
-    $age = 30;
-    echo "Bonjour {$lastname} {$firstname}, vous avez {$age} ans."
-    ?>
+    <p><?= $resultat ?></p>
 </body>
 
 </html>
